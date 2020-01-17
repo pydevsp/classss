@@ -1,0 +1,58 @@
+ <!-- <img src="filename" width=px height=px>
+       sc (source)=image url ,alt=alternate text
+    <figure> and <figcaption> tag =show image name  -->
+ 
+ <html>
+     <head>
+
+         <title>nature images</title>
+         <style>
+             .photo {
+                 width: 650px;
+                 height:350px;
+                 border: 5px solid #e4d50a;
+                 float: left;
+                 margin: 5px;
+                 transition: transform 0.3s;
+                 cursor: pointer;
+                 background-color: cornflowerblue;
+             }
+
+             .photo :hover {
+                 transform: scale(1.1);
+             }
+
+             figure {
+
+                margin: 0px;
+                padding: 0px;
+             }
+
+             figcaption {
+                 font-size: 20px;
+                 font-family: segoe ui;
+                 padding-left: 10px;
+             }
+         </style>
+
+     </head>
+     <body>
+         <h1>image</h1>
+         <div class="photo">
+             <figure>
+                 <a href="gettyimage.jpg">
+                     <img src="gettyimage.jpg" width=400px height=250px>
+                 </a>
+                 <figcaption>getty photo</figcaption>
+             </figure>
+         </div>
+         <div class="photo">
+             <figure>
+                 <a href="gettyimage.jpg">
+                     <img src="gettyimage.jpg" width=500px height=300px alt="picname">
+                 </a>
+                 <figcaption>getty type</figcaption>
+             </figure>
+         </div>
+     </body>
+ </html>
