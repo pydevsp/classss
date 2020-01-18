@@ -1,3 +1,5 @@
+from builtins import print
+
 print(5555)
 
 a="sagar,its single line str data type"
@@ -16,3 +18,6 @@ print(e)
 print(f)
 print(g)
 print(h)
+
+
+print("pppppp")
