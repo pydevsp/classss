@@ -2,6 +2,10 @@
 a=150
 print(a ,"..'decimal'..") #integral data type
 
+print(bin(45),(45)) #convert decimal to binary number
+print(oct(45),(45))  #convert decimal to octal number
+print(hex(45),(45))  #convert decimal to hexa number
+
 print("====")
 
 #2. binary form number == base_2  ,0 & 1 are allowed ,prefixed with 0b or' 0B ,any number convert in binary no.== bin()  .
@@ -9,11 +13,10 @@ b=11
 c=10
 d=101111000
 aa=0b1111 # convert binary to decimal number
-print(bin(45)) #convert decimal to binary number
 print(b,"..'binary'..")
 print(c)
 print(d)
-print(aa ,"..'binary to decimal'..")
+print(aa ,"..'defult decimal value print'..")
 
 print('=====')
 
