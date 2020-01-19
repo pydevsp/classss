@@ -1,4 +1,4 @@
-from builtins import print
+#from builtins import print
 
 print(5555)
 
@@ -20,4 +20,5 @@ print(g)
 print(h)
 
 
-print("pppppp")
+_id=55
+id(_id)
