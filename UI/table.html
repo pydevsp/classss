@@ -1,0 +1,132 @@
+<html>
+    <head>
+
+        <title>simple table</title>
+        <style>
+            .studenttable {
+                background-color: #e0dcdc;
+                width: 700px;
+                margin: auto;
+                box-shadow: 0px 0px 3px 4px #d1cece;
+                transition: box-shadow 0.3s;
+                min-width: 200px;
+                overflow: auto;
+            }
+
+            .studenttable:hover {
+                box-shadow: 0px 0px 5px 7px #d1cece;
+            }
+
+            table {
+                font-family: Tahoma;
+                font-size: 26px;
+                width: 100%;
+                border-collapse: collapse;
+                border: 1px solid #968f8f;
+            }
+
+            table thead tr {
+                background-color: #a39d9dff;
+            }
+
+            table thead tr th {
+                padding: 10px;
+            }
+
+            table tbody tr td {
+                padding: 7px;
+            }
+
+            table tfoot tr td {
+                padding: 11px;
+            }
+
+            table tbody tr {
+                border: 1px solid #686363;
+            }
+
+            table tbody tr:hover {
+                background-color: #948585;
+            }
+
+            table tfoot tr {
+                border-top: 2px solid #000000;
+                border-bottom: 2px solid #000000;
+            }
+
+            table caption {
+                background-color: #2f598f;
+                color: #ffffff;
+                padding: 12px;
+            }
+
+            #jones {
+                font-weight: bold;
+            }
+
+            .reat {
+                text-decoration: underline;
+            }
+
+            .ng {
+                vertical-align: top;
+            }
+
+            
+        </style>
+    </head>
+
+    <body>
+        <h1>table_look</h1>
+        <div class="studenttable">
+            <table>
+                <caption>student name 2020</caption>
+                <thead>
+                    <tr>
+                        <th>roll no.</th>
+                        <th>student name</th>
+                        <th>course</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>01</td>
+                        <td>alias</td>
+                        <td>java</td>
+                    </tr>
+                    <tr>
+                        <td>02</td>
+                        <td>akash</td>
+                        <td>angular</td>
+                    </tr>
+                    <tr>
+                        <td>03</td>
+                        <td>das</td>
+                        <td class="reat">reactJS</td>
+                    </tr>
+                    <tr>
+                        <td>04</td>
+                        <td>harry</td>
+                        <td rowspan="2" class="ng">angular</td>
+                    </tr>
+                    <tr>
+                        <td>05</td>
+                        <td>allen</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>06</td>
+                        <td id="jones">jones</td>
+                        <td class="reat">reactJS</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">tottal student</td>
+                        <td>6</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </body>
+</html>
