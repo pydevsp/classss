@@ -1,0 +1,66 @@
+<html>
+    <head>
+
+        <title>background img</title>
+        <style>
+
+        .photo {
+            width: 450;
+            height: 300;
+            border: 4px dotted #2308be;
+            float: left;
+            margin: 15px;
+            transition: transform 0.4s;
+            cursor: pointer;
+            
+        }
+
+        .photo:hover {
+            transform: scale(1.1);
+        }
+
+        #ph1 { 
+            background-image:url("flower.jpg");
+            background-size: cover;
+        }
+
+        #ph2 {
+            background-image:url("gettyimage.jpg");
+            background-size: cover;
+        }
+
+        .image_title {
+            font-family: 'Franklin Gothic Medium';
+            font-size: 30px;
+            color:black;
+            padding-top: 5px;
+            padding-top: 5px;
+            padding-left: 5px;
+            text-shadow: 3px 2px 2px ;
+        }
+
+        .sub-title {
+            color: white;
+            font-family: sans-serif;
+            font-size: 20px;
+            padding-left: 3px;
+            padding-top: 3px;
+            text-shadow: 2px 2px 2px #2308be;
+        }
+        </style>
+
+    </head>
+    <body>
+        <h1>image</h1>
+        <div class="photo" id="ph1">
+            <div class="image_title">desert</div>
+            <div class="sub-title">yooo</div>
+
+        </div>
+        <div class="photo" id="ph2">
+            <div class="image_title">jelly</div>
+            <div class="sub-title">jellyfish</div>
+        </div>
+    </body>
+</html>
+

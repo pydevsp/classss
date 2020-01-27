@@ -1,0 +1,56 @@
+/* <-- <a> </a> ==== <a href="url"> </a>====link text or, content 
+        attributes_href="url", lint styles_a:link{color:#oo} ,a:visited{color:#aa} 
+         a:hover{color:#bbb} ,a:active{color:#fgf} */
+
+
+* {
+    margin:0px;
+    padding:0px;
+}
+
+.nav {
+    background-color:#8af18f;
+    width: 100%;
+    HEIGHT:13%;
+    font-size: 24PX;
+    font-family: 'Segoe UI';
+}
+
+.nav ul {
+    list-style-type: none;
+}
+
+.nov ul li {
+    width: 130px;
+    height: 47px;
+    float: left;
+    text-align: center;
+    line-height: 47px;
+}
+
+a:link {
+    color:#63f0cd;
+    text-decoration: none;
+    line-height: 47px;
+    width: 130px;
+    height: 47px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+a :visited { 
+    color: rgb(197, 12, 12);
+}
+a:hover {
+    background-color: #a30d65;
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+}
+
+h1 {
+    clear: left;
+}
