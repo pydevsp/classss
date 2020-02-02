@@ -1,0 +1,81 @@
+<html>
+    <head>
+
+        <title>table-emp</title>
+        <style>
+            body {
+                background-image: url("flower.jpg");
+               background-size: initial;
+            }
+
+            table {
+                background-color: #b3a2a2;
+
+                margin:50px  auto;
+                border-collapse: collapse;
+                border-radius: 1.3em;
+                width: 800px;
+                height: 400px;
+
+            }
+
+            table tr {
+                text-align: center;
+                font-size: 40px;
+                transition: 0.3s;
+
+            }
+            tbody tr:hover {
+                color:red;
+                cursor: pointer;
+
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <table>
+            <thead>
+                <tr>
+
+                    <th>eno.</th>
+                    <th>ename</th>
+                    <th>job</th>
+                    <th>deptno</th>
+
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>01</td>
+                    <td>ram</td>
+                    <td>salesman</td>
+                    <td>10</td>
+                </tr>
+
+                <tr>
+                    <td>02</td>
+                    <td>sham</td>
+                    <td>manager</td>
+                    <td>30</td>
+                </tr>
+
+                <tr>
+                    <td>03</td>
+                    <td>tom</td>
+                    <td>manager</td>
+                    <td>30</td>
+                </tr>
+            </tbody>
+
+            <tfooter>
+                <tr>
+                    <td colspan="3">total emp</td>
+                    <td > 4</td>
+                </tr>
+            </tfooter>
+        </table>
+    </body>
+</html>
