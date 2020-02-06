@@ -24,5 +24,5 @@ _id=55
 id(_id)
 
 
-pip install notebook
-exit()
+
+
