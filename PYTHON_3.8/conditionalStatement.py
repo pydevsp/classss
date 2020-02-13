@@ -83,3 +83,12 @@ elif n3>=n1 and n3>n2 :
     print(n3 ,"is big no.")
 else :
     print("all 3nos. equal")
+
+
+# Rstar=input()      # input() function o/p str datatype
+# print(Rstar)
+# print(type(Rstar))
+
+# i/p = 5
+# o/p = 5
+#       <class 'str'>
