@@ -1,91 +1,91 @@
-# # pattern:1
-# # ----------
-# num = int(input("enter the nos. of row & column :"))
-# for x in range (1,num+1) :
-#     print("* "*num ,)
+# pattern:1
+# ----------
+num = int(input("enter the nos. of row & column :"))
+for x in range (1,num+1) :
+    print("* "*num ,)
 
-# print("=========")
+print("=========")
 
-# #pattern:2
-# #----------
+#pattern:2
+#----------
 
-# num=int(input("enter the nos. of rows :"))
-# for x in range(1,num+1) :
-#     for y in range(1,num+1) :
-#         print(x ,"", end="")
-#     print("=")
-
-
-# #pattern:3
-# #----------
-
-# N=int(input("enter the nos. of columns :"))
-
-# for x in range (1,N+1) :
-#     for y in range(1,N+1) :
-#         print(y,"",end="")
-#     print("=")
+num=int(input("enter the nos. of rows :"))
+for x in range(1,num+1) :
+    for y in range(1,num+1) :
+        print(x ,"", end="")
+    print("=")
 
 
-# #pattern:4.1
-# #----------
+#pattern:3
+#----------
 
-# char=int(input("enter the nos. of rows :"))
+N=int(input("enter the nos. of columns :"))
 
-# for x in range (1,char+1) :
-#     for y in range (1,char+1) :
-#         print(chr(64+1),"", end='')
-#     print("=")
-
-
-
-# print(chr(64))
-# l=(chr(65))
-# print(l)
+for x in range (1,N+1) :
+    for y in range(1,N+1) :
+        print(y,"",end="")
+    print("=")
 
 
-# #pattern:4.2
-# # ----------
+#pattern:4.1
+#----------
 
-# char=int(input("enter the nos. of rows :"))
+char=int(input("enter the nos. of rows :"))
 
-# for x in range (1,char+1) :
-#     for y in range (1,char+1) :
-#         print(chr(64+x),"", end='')
-#     print("=")
+for x in range (1,char+1) :
+    for y in range (1,char+1) :
+        print(chr(64+1),"", end='')
+    print("=")
 
 
 
-# #pattern:5
-# #----------
-
-# char=int(input("enter the nos. of rows :"))
-
-# for x in range (1,char+1) :
-#     for y in range (1,char+1) :
-#         print(chr(64+y),"", end='')
-#     print("=")
+print(chr(64))
+l=(chr(65))
+print(l)
 
 
-# #pattern:6
-# #----------
+#pattern:4.2
+# ----------
 
-# num=int(input("enter the nos. of rows :"))
-# for x in range(1,num+1) :
-#     for y in range(1,num+1) :
-#         print((num+1)-x,"", end="")
-#     print("=")
+char=int(input("enter the nos. of rows :"))
+
+for x in range (1,char+1) :
+    for y in range (1,char+1) :
+        print(chr(64+x),"", end='')
+    print("=")
 
 
 
-# #pattern:7
-# #----------
+#pattern:5
+#----------
 
-# num=int(input("enter the nos. of rows :"))
-# for x in range(1,num+1) :
-#     for y in range(1,num+1) :
-#         print((num+1)-y,"", end="")
-#     print("=")
+char=int(input("enter the nos. of rows :"))
+
+for x in range (1,char+1) :
+    for y in range (1,char+1) :
+        print(chr(64+y),"", end='')
+    print("=")
+
+
+#pattern:6
+#----------
+
+num=int(input("enter the nos. of rows :"))
+for x in range(1,num+1) :
+    for y in range(1,num+1) :
+        print((num+1)-x,"", end="")
+    print("=")
+
+
+
+#pattern:7
+#----------
+
+num=int(input("enter the nos. of rows :"))
+for x in range(1,num+1) :
+    for y in range(1,num+1) :
+        print((num+1)-y,"", end="")
+    print("=")
 
 
 
