@@ -14,7 +14,7 @@ for x in range(1,Rstar+1) :
 Rnu=int(input("R_ra_numeric no :"))
 for x in range (1,Rnu+1) :
     for y in range (1,Rnu+2-x) :
-        print(x ,end="")
+        print(x ,end=" ")
     print()
 
 
@@ -25,7 +25,7 @@ for x in range (1,Rnu+1) :
 Rnu=int(input("R_ra_numeric_ver no :"))
 for x in range (1,Rnu+1) :
     for y in range (1,Rnu+2-x) :
-        print(y , end="")
+        print(y , end=" ")
     print()
 
 
@@ -36,7 +36,7 @@ for x in range (1,Rnu+1) :
 Rchar=int(input("R_ra_char_hor no :"))
 for x in range (1,Rchar+1) :
     for y in range (1,Rchar+2-x) :
-        print(chr(64+x),end="")
+        print(chr(64+x),end=" ")
     print()
 
 
@@ -46,7 +46,7 @@ for x in range (1,Rchar+1) :
 Rchar=int(input("R_ra_char_ver no :"))
 for x in range (1,Rchar+1) :
     for y in range (1,Rchar+2-x) :
-        print(chr(64+y),end="")
+        print(chr(64+y),end=" ")
     print()
 
 
@@ -56,7 +56,7 @@ for x in range (1,Rchar+1) :
 Rnu=int(input("R_ra_numeric_hor no :"))
 for x in range (1,Rnu+1) :
     for y in range (1,Rnu+2-x) :
-        print(Rnu+1-x ,end="")
+        print(Rnu+1-x ,end=" ")
     print()
 
 
@@ -65,7 +65,7 @@ for x in range (1,Rnu+1) :
 Rnu=int(input("R_ra_numeric_ver no :"))
 for x in range (1,Rnu+1) :
     for y in range (1,Rnu+2-x) :
-        print(Rnu+1-y , end="")
+        print(Rnu+1-y , end=" ")
     print()
 
 
@@ -74,7 +74,7 @@ for x in range (1,Rnu+1) :
 Rchar=int(input("R_ra_Rchar_hor no :"))
 for x in range (1,Rchar+1) :
     for y in range (1,Rchar+2-x) :
-        print(chr(64+(Rchar+1-x)),end="")
+        print(chr(64+(Rchar+1-x)),end=" ")
     print()
 
 
@@ -84,5 +84,5 @@ for x in range (1,Rchar+1) :
 Rchar=int(input("R_ra_Rchar_hor no :"))
 for x in range (1,Rchar+1) :
     for y in range (1,Rchar+2-x) :
-        print(chr(64+(Rchar+1-y)),end="")
+        print(chr(64+(Rchar+1-y)),end=" ")
     print()
