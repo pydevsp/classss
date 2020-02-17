@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>array methods - splice</title>
+    </head>
+    <body>
+        <h1>
+            [ ].splice (startIndex , count)
+        </h1>
+        <hr>
+        <h3><p><b>remove the specified no. of element starting from the startIndex .</b></p></h3>
+
+
+        <script>
+            /* splice : remove element  */
+            var a = [10,210,50,42,32,45.0]
+            console.log(a);
+
+            a.splice(0,3);
+            console.log(a);
+
+            var b =[1,5,25,56,56,34,78,76,65]
+            console.log(b);
+
+            b.splice(2,2);
+            console.log(b);      // starting index point 2==>25 and , count 2==> 25,56 remove
+        </script>
+    </body>
+</html>

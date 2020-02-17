@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>array method - forEach</title>
+
+    </head>
+    <body>
+        <h1>.forEach (function(variable){return condition ;});</h1>
+        <hr color="pink"/>
+        <p>difference between map and forEach  :
+            forEach will not return anything
+            map will rrturn the array
+        </p>
+
+
+        <script>
+            /* forEach : executes the function once foreach element  */ 
+            var mark = [25,80,35,90] ;
+            var result = mark.forEach (function(x)
+            {
+                x ++ ;
+                console.log(x) ;
+
+            })
+
+            console.log(result);    // undefine
+        </script>
+    </body>
+</html>

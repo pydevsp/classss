@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>array method - some</title>
+    </head>
+    <body>
+        <h1>[ ].some(functioon (){return condition ;});</h1>
+        <hr>
+        <p>return "true" if any one lement i matching with the given condition</p>
+
+
+        <script>
+            /*  some : checking condition for atleast one element "true"     */ 
+            var mark = [31,35,31,80];
+            var result = mark.some(function(m)
+            {
+                return m >=35;
+            });
+
+            console.log(result);
+
+        </script>
+    </body>
+</html>

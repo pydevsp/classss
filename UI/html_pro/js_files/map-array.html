@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>array method - map </title>
+    </head>
+    <body>
+        <h1>map(function(variable){return codition ;});</h1>
+        <hr color="green"/>
+        <p>executes a function once for each element</p>
+
+
+        <script>
+            /*  map : executes the function once for each element and returns an array  with returned values from function  */ 
+            var mark =[25,35,64,70] ;
+            var result =mark.map(function(m)
+            {
+                m ++ ;
+                console.log(m) ;             // line by line value o/p
+
+                return m ;
+
+            });
+
+            console.log(result);                 // array type value o/p                                                                
+        </script>
+
+    </body>
+</html>

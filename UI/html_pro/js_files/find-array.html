@@ -1,0 +1,27 @@
+<!DOCTYPE html>>
+<html>
+    <head>
+        <title>array method - find</title>
+
+    </head>
+    <body>
+        <h1>[ ].find(function(){return condition ;});</h1>
+        <hr>
+        <h3>return the first matching element , that 
+            are matching with the given condition
+        </h3>
+
+
+        <script>
+            /*  find : get 1st matching element   */ 
+            var mark = [30,80,30,57];
+            var result = mark.find(function (v)
+            {
+                return v >= 35;
+            });
+
+            console.log(result);
+            
+        </script>
+    </body>
+</html>

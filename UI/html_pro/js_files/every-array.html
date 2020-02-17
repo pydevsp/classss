@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>array method - every</title>
+    </head>
+    <body>
+        <h1>
+            [ ].every (function (){return condition ;})
+        </h1>
+        <hr color="green"/>
+        <p>return "true" if  all the elements are matching with the given condition</p>
+
+
+        <script>
+            /* every : checking condition for all element  of array */
+            var mark = [80,31, 338 ,50];
+            var result = mark.every(function(m) 
+            {
+                return m>=35 ;
+            }
+            ) ;
+
+            console.log(result) ;                // o/p ==>  false
+
+
+        </script>
+    </body>
+</html>

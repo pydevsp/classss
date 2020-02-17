@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>array method - filter</title>
+        
+    </head>
+    <body>
+        <h1>[ ].filter(function(){return condition;}); </h1>
+        <hr color="blue">
+        <h3>return all the elements, that are matching with the given condition . matching element only print</h3>
+
+
+        <script>
+            /*  filter :get only matching element as another array  */ 
+            var mark = [40,80,31,90] ;
+            var result = mark.filter(function(x)
+            {
+                return x >=35 ;
+
+            }
+            );
+
+            console.log(result);   // only condition true values are print   //
+            
+        </script>
+    </body>
+</html>
