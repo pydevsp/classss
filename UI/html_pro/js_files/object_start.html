@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>javaScript - Object</title>
+
+    </head>
+    <body>
+        <h1>Object { }</h1>
+        <hr>
+        <p>
+            Object is used to store set of values / functions about a person  or, thhing  .<br>
+            Object is a collection of properties  .each property can store a value . <br>
+            the value of property can be a  number / string / booleaan / object / array / function .<br>
+            function inside the object is called as "method". 
+        </p>
+
+
+        <script>
+            /* create an object that stores person details, person name is ram
+            his DOB is "1992-06-01" and email is ram@gmail.com .  */ 
+
+            var a = {
+                personName : "Ram" ,
+                dateOfBirth : "1995-06-01" ,
+                personEmail : "ram@gmail.com"
+            }
+
+            console.log(a);
+
+
+            /* create person details with age (cal. with function )  */  
+            var emp ={
+                eName       : "Scott" ,
+                dateOfBirth : new Date ("1994-09-30")  ,    // new Date ==> means current system Date
+                email       : {personalEmail : "scott@gmail.com",officialEmail : "sott.office@gmail.com",officialEmail : "sottt.office@gmail.com"} ,
+                mobile      : ["1245","1546","463131","1245"] ,
+                age         : function(){                             
+                    return new Date - this.dateOfBirth ;              // function for calculate date
+                }
+
+            }
+
+
+            console.log(emp);
+            console.log(emp.eName) ;
+            console.log(emp.dateOfBirth) ;
+            console.log(emp.age) ;
+            console.log (Math.floor(emp.age()));   // it is bydefault milisecond age value 
+            console.log (Math.floor(emp.age()/1000/60/60/24/30/12));   // its value in year
+
+        </script>
+    </body>
+</html>

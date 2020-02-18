@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Object Array</title>
+        <style>
+            p.aaa {
+                font-size: 20px;
+                font-weight: bold;
+                margin-left: 50px;
+                margin-bottom: 100px;
+                
+                background-color: burlywood;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>
+            object Literal 
+        </h1>
+        <hr>
+        <p class="aaa">
+            [{} ,{},{} ,{} ,...]
+        </p>
+        <h1>
+            using constructor function
+        </h1>
+        <hr color="blue"/>
+        <p>
+            [new constru_name(),new constru_name() ,new constru_name(),...]
+        </p>
+
+
+        <script>
+            /*  Object array [using object Literal]        */  
+            var parsons = [
+                {name : "smith" , age : 25} ,
+                {name : "scott", age :24},
+                {name : "ford" , age :20}
+
+            ] ;
+
+            console.log(parsons);
+
+            /*   object arrays [using constructor function]   */  
+            var Parson = function (name , age)
+            {
+                this.name =name ;
+                this.age = age ;
+
+            } ;
+
+            var Parson2 = [new Parson ("smith",27),new Parson("ford" ,24)] ;
+            console.log(Parson2)  ;
+            
+        </script>
+    </body>
+</html>

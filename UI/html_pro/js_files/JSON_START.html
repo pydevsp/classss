@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JS OBJECT NOTATION</title>
+    </head>
+    <body>
+        <h1>json</h1>
+        <hr>
+        <p>
+            1. JSON is mainly used to convert data from one language to other language <br>
+            2. JSON is universal data formart to represent  data , which supported by all language <br>
+            3. JSOn properties must have double quotes " " . <br>
+            4. It is supports nested object/arrays <br>
+            5. real use of JSON : <br>
+               # to store data in browser's "local storage" . ex: gmail  .<br>
+               # to receive data from server . <br>
+
+            6. empjs = JSON.stringify (emp1); ===> object to JSON <br>
+               empb  = JSON.parse(empjs) ;    ===> JSON to object 
+        </p>
+
+
+        <script>
+            var employee = function (name,dateOfBirth)
+            {
+                this.name = name ;
+                this.dob  = dateOfBirth ;
+
+            } ;
+
+
+            var emp1 = new employee("scott", new Date ("1988-10-25"));
+            console.log(emp1);
+
+            var empjson = JSON.stringify(emp1) ;
+            console.log((empjson));
+
+            var empObj = JSON.parse(empjson) ;
+            console.log (empObj) ;
+
+            
+        </script>
+    </body>
+</html>

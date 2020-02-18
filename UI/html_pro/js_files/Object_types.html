@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>type of Object</title>
+        <style>
+            p {
+                font-size: 25px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="color: chocolate;">3 types of OBJECT</h1>
+        <hr>
+        <p class="para">
+            1. object Literal <br>
+            2. new Object <br>
+            3. consructor function
+        </p>
+
+        <p> note: when we store single or, independent object then use "object Literal"</p>
+
+
+
+        <script>
+            /*  object Literal  */  
+            var a = {
+                propertyyy : "valuesss" ,
+                methodss   : "functionsss(){ }" ,       // property duplicate not allowed ,values can be allowed 
+                propertyyyy : "valusesss" ,
+                propertyyyy :  "475464" ,
+                abc         :  "valusesss"
+                
+            } ;
+
+            console.log(a) ;
+
+
+            /*  new Object()   */
+            console.log("new Object")
+            var X = new Object() ;     // create empty  Object {}   */
+
+            X.propertys = "values" ;                  // X is a variable that object address , 
+            X.methods   = "functions(){}" 
+            X.pro       =  "valueee"
+
+            console.log(X);
+
+
+            /*   constructor function */
+            console.log("constructor function")
+            var employee = function (ename , dateOfBirth)
+            {
+                this.ename = ename ;
+                this.dateOfBirth = dateOfBirth ;
+                this.age = function (){
+                    return Math.floor((new Date()- this.dateOfBirth) /1000/60/60/24/30/12)
+                } ;
+            };
+
+
+            var emp1 = new employee ("scott",new Date("2000-08-15")) ;
+
+            console.log(emp1);
+            console.log(emp1.ename);
+
+            console.log(emp1.age()) ;                       // two employee data insert in one object formaart  
+            
+            
+            var emp2 = new employee ("ram",new Date("1997-11-19")) ;
+
+            console.log(emp2);
+            console.log(emp2.ename);
+            console.log(emp2.dateOfBirth)
+            console.log(emp2.age()) ;
+
+        </script>
+
+
+    </body>
+</html>
