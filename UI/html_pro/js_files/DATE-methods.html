@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Date function</title>
+        <STYLE>
+            p{
+                font-size: 30px;
+                
+            }
+        </STYLE>
+    </head>
+    <body>
+        <h1>date</h1>
+        <hr>
+        <p>
+            1. new Date () ; ==> new is a object , DAte() is a construct function <br>
+
+            2.new Date().toLocaleDateString() ; ==> mm/dd/yyyy    <br>
+
+            3. new Date().getDate()  ;   ==> today dd  <br>
+
+            4. new Date().getMonth() ;   ==>  mm     <br>  <!--month index type calculate 0 to 11  . jan=0 dec=11 -->
+
+            5. new Date().getFullYear() ;  ==>  yyyy <br>
+
+            6. new Date().toLocaleTimeString()  ==> hh:mm:ss AM/PM   <br>
+
+            7. new Date().getTime()  ==> o/p 124665565986 (milliseconds)  calculate from 1970-jan-1st 12.00AM  (UNIX DATE) 
+
+
+        </p>
+    
+        <script>
+            console.log(new Date ()) ;
+
+            a= new Date().toLocaleDateString() ;
+            console.log(a) ;
+
+            console.log(new Date().getDate());
+
+            console.log(new Date().getMonth());
+
+            console.log(new Date().getFullYear()) ;
+
+            console.log(new Date().getDate() + "/" + (new Date().getMonth() + 1) + "/" + new Date().getFullYear());// getMonth +1 == month
+
+            console.log(new Date().getHours());
+
+            console.log (new Date().getTime());
+            
+            var a = new Date() ;
+            console.log(a);
+            console.log (a.toLocaleTimeString());
+
+            console.log(a.getDay()) ;
+
+
+
+
+
+        </script>
+
+    </body>
+</html>

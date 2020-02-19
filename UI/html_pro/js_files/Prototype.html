@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>prototype</title>
+
+    </head>
+    <body>
+        <h1>
+            prototype
+        </h1>
+        <hr color="blue"/>
+        <p>
+            1. it is a model <br>
+            2. the properties and methods that are stored in prototype will be copied into all objects automatically <br>
+            3. javascript is a prototype based object oriented language  . 
+        </p>
+
+        <script>
+            var Person = function (name , age)
+            {
+                this.name = name ;
+                this.age = age ;
+
+            } ;
+
+           Person.prototype.getName = function ()
+           {
+               return this.name ;
+           } ;
+
+           var Person2 = [
+               new Person ("smith", 20),
+               new Person ("john", 25) ,
+               new Person ("ford",21)
+           ] ;
+
+           console.log(Person2) ;
+
+           var Person3 = [
+               new Person ("scott", 20),
+               new Person ("king", 25) ,
+               new Person ("ford",21)
+           ] ;
+
+           console.log(Person3) ;           
+
+        </script>
+    </body>
+</html>

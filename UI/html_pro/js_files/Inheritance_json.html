@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Inheritance</title>
+    </head>
+    <body>
+        <h1>inheritance</h1>
+        <hr>
+        <p>
+            whenever an object is created based on existing objects, we call it is inheritance .<br>
+            object1 ==> name, email <br>
+            object2 ==>  object.create(object1) ; object2.marks =44 ; ==> name ,email , marks
+        </p>
+        <script>
+            var Parent = {name :"scott" ,email :"s@gmail.com" }
+
+            console.log(Parent) ;
+
+            var Student = Object.create(parent) ;
+            Student.mark = 10 ;
+
+            console.log(Student) ;
+        </script>
+
+    </body>
+</html>

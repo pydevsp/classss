@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>data_function</title>
+    </head>
+    <body>
+        <h1>data manipulating </h1>
+        <hr>
+
+
+        <script>
+            /* == vs ===   */ 
+            console.log(10 == "10") ;    // it is check only the value   o/p ==> true
+
+            console.log(10 === "10") ;   // it is check value with datatype  o/p ==> false
+
+            /*  string()   */ 
+            console.log(String(1000)) ;          // NUMBER TO STRING DATATYPE
+            console.log(String("AAA!@#$s"));
+
+            /*  toString()    */ 
+            var a = 200                       // number to string
+            console.log(a.toString()) ;
+
+            /*  Number  */ 
+            console.log(Number(500));
+            console.log(Number("india")) ;  // o/p NaN ==> not a number
+            console.log(Number(154.21));
+
+
+            /*  parseInt ()   */
+            console.log(parseInt("155.83")) ;  // o/p   only intgere value
+
+            /*  toFixed  */  
+            var a = 111.87456123 ;
+            console.log(a.toFixed(2)) ;           // after decimal number
+            console.log(a.toFixed(3)) ;
+
+
+            /* .toUpperCase()    */ 
+            var a = "india".toUpperCase(); 
+            console.log(a);        // to upper-case
+
+
+            /*  toLowerCase()   */  
+            var s = "INDIA".toLowerCase();
+            console.log(s);
+
+            /* .length  */   
+            var l = "india".length ;
+            console.log(l);
+
+            /* .substr()  */  
+            var d = "the ball".substr(3);
+            console.log(d);                             // starting index
+
+            /* .indexOf()  */ 
+            var h = "hyderabad" ;
+            console.log(h.indexOf("a")) ;    //  o/p==>5   1st index count
+            console.log(h.indexOf("a",6)) ;    // o/p==>7  index search start 6 
+
+
+            console.log(h.lastIndexOf("a")) ;    // o/p ==>7  last index count
+
+
+            /* .split (" ")   */
+
+            var ar = "one two three four" ;
+            console.log(ar) ;
+            console.log(typeof(ar));          // convert string to array  
+
+            console.log(ar.split(" ")) ;  
+            
+
+            
+
+
+        </script>
+
+    </body>
+</html>

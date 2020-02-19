@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>data-type</title>
+        <style>
+            .tables {
+                background-color: #e0dcdc;
+                width: 500px;
+                margin: auto;
+                box-shadow: 0px 0px 3px 4px #d1cece;
+                transition: box-shadow 0.3s;
+                min-width: 200px;
+                overflow: auto;
+                text-align: center;
+            }
+            table {
+                font-family: Tahoma;
+                font-size: 26px;
+                width: 100%;
+                border-collapse: collapse;
+                border: 1px solid #968f8f;
+            }
+            table thead tr th {
+                padding: 10px;
+            }
+            table tbody tr td {
+                padding: 7px;
+                border-right: 1px solid #686363;
+            }
+            table tfoot tr td {
+                padding: 11px;
+            }
+
+            table tbody tr {
+                border: 1px solid #686363;
+            }
+
+        </style>
+
+    </head>
+    <body>
+        <div >
+            <table class="tables">
+                <thead>
+                    <tr>
+                        <th>data type</th>
+                        <th>values</th>
+
+                    </tr>
+
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>number</td>
+                        <td>any number</td>
+                    </tr>
+                    <tr>
+                        <td>string</td>
+                        <td>collection of characters</td>
+
+                    </tr>
+                    <tr>
+                        <td>boolean</td>
+                        <td>true / false</td>
+                    </tr>
+                    <tr>
+                        <td>undifined</td>
+                        <td>undifined</td>
+                    </tr>
+                    <tr>
+                        <td>object </td>
+                        <td>{ } ,new {} ,[] ....</td>
+                    </tr>
+                    <tr>
+                        <td>function</td>
+                        <td>function(){}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h1>typeof</h1>
+        <p>typeof is used to identify the data type of the value  <br>
+
+
+        </p>
+
+
+        <script>
+            var a =10;
+            console.log(typeof (a));
+
+            var b = "qwerty"
+            console.log(typeof(b)) ;
+
+            var c= 
+            console.log(typeof(c));
+
+            var d = {a:123,b:154} ;
+            console.log(typeof(d));
+
+            var e =[14545,244,89] ;
+            console.log(typeof(e)) ; 
+
+
+            var B = true ;
+            console.log(typeof(B)) ;
+            
+        </script>
+        
+    </body>
+</html>
