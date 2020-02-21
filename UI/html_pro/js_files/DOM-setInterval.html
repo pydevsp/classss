@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>setInterval</title>
+        <meta charset="utf-8">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js">  </script>
+
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js">
+        </script>
+    
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js">
+        </script>
+    
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    </head>
+    <body>
+        <div class="container-fluid">
+            <h1>setIinterval</h1>
+            <hr color="red">
+            <div id="d1" class="c1">time</div>
+        </div>
+        <script>
+            //setInterval: It will call a function for every completion of specified no. of milliseconds.
+            var count = 0 ;
+            function showTime()
+            {
+                document.getElementsByClassName("c1")[0].innerHTML = new Date().toLocaleTimeString();
+                count++ ;
+
+                if (count > 10)
+                {
+                    clearInterval (repeat);
+
+                }
+            }
+
+            showTime();
+
+            var repeat = window.setInterval(showTime, 1000);
+
+
+        </script>
+    </body>
+</html>

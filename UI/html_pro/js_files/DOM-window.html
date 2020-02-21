@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DOM_window</title>
+        <style>
+            p {
+                padding-bottom: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>window properties and methods :</h1>
+        <hr color="red"/>
+        <h3>it is represent entire browser window</h3>
+        <p style="font-size: 20px;">
+            1. location.href :-  This property represents url of the current web page running in the browser window.  <br>
+            2. navigator.userAgent :- This property represents the name of current browser.  <br>
+            3. screenX  :- This property represents X(horizontally) value of current browser position on the screen. <br>
+            4. screenY  -This property represents Y(vertically) value of current browser position on the screen. <br>
+            5. alert()  :- This method displays an information dialogbox (message dialogbox) to the user.             <br>
+            6. confirm() <br>
+            7. print()  :-This method displays print dialogbox, which is used to print the current webpage through selected printer.  <br>
+            8. setTimeout() :-• This method calls the specified function, after completion of specified no. of milli seconds. • 
+                                     Note:    1000 milli seconds = 1 second 
+                                     Syntax:   window.setTimeout(function, milli seconds <br>
+            9. setInterval()  <br>
+            10. open()   <br>
+            11. clearInterval  
+        </p>
+
+
+
+        <script>
+            // 1.  
+            var a = window.location.href ;
+            console.log(a) ;                           // o/p==> file:///C:/classss/UI/html_pro/js_files/DOM-window.html
+
+            //2.
+            var b = window.navigator.userAgent ;
+            console.log(b) ;                          // 0/p==>  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+
+            //3.
+            var c = window.screenX ;
+            console.log(c);                          // o/p==> horizontally browser page possition 
+
+            //4.
+            var d = window.screenY ;
+            console.log(d);                            // o/p==> vertically browser page possition  
+
+            //5.
+
+            var e = window.alert("OK") ;                  //  It contains only OK button. 
+            console.log(e);                              // o/p==> This method displays an information dialogbox (message dialogbox) to the user. 
+
+            //6.
+            var f = window.confirm("are you sure to close ??");  // It returns "true", if the user clicks on "OK" button; It returns "false",
+                                                                 //                                  if the user clicks on "Cancel" button. 
+            console.log(f);                              // o/p==> This method displays an confirmation dialogbox to the user.
+
+
+            // //7.
+            // var g = window.print();
+            // console.log(g);          // o/p==> print dialogbox              
+
+
+            //8. 
+            window.setTimeout(fun1,5000) ;
+            function fun1()
+            {
+                console.log('hello') ;
+            }
+            
+            
+
+        </script>
+
+
+    </body>
+</html>

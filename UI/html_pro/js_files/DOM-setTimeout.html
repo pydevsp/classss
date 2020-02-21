@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>setTimeout</title>
+        <meta charset="utf-8">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js">  </script>
+
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js">
+        </script>
+    
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js">
+        </script>
+    
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">        
+    </head>
+    <body>
+        <div class="container-fluid">
+            <h1>setTimeout</h1>
+            <div id="cdiv">please wait...</div>
+            <div id="cdiv">pleasesss wait...</div>
+            <div id="cdiv">pleasssssse wait...</div>            
+        </div>
+
+        <script>
+            // setTimeout :- it will call a function after specified no. of  milliseconds completed 
+
+            function showMessage ()
+            {
+                document.querySelectorAll("#cdiv")[1].innerHTML = "loaded now..."  // index value for select ID/CLASS 
+
+
+            }   // .querySelector ==> select only 1st id 'index value not rquired', .querySelectorAll ==> select with index value 
+
+           var a = window.setTimeout(showMessage , 2000);  // 2000 is millisecond value  / after 2sec. show message
+
+           console.log(a);
+        </script>
+    </body>
+    
+</html>
