@@ -52,7 +52,7 @@
 
 # # print only prime number
 
-# no = int(input("Enter Number  : "))
+
 
 # for x in range(2,no+1):
 #     b = True
