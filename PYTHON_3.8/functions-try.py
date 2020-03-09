@@ -59,18 +59,111 @@
 #     print(b)
 
 # ss("aadf")
-a=10
-b=20
-def ad():
-    global a,b
-    a=30
-    b=42
-    def ad():
-        print(a,b)
-    ad()
-ad()
+# a=10
+# b=20
+# def ad():
+#     global a,b
+#     a=30
+#     b=42
+#     def ad():
+#         print(a,b)
+#     ad()
+# ad()
 
-def aas():
-    print(a,b)
+# def aas():
+#     print(a,b)
 
-aas()
+# aas()
+
+# def factValue (n) :
+#     l = 1
+
+#     if n == 0 :
+#         l = 1
+#     else :
+#         l = n * factValue(n-1)
+#     return l
+
+
+# print(factValue(5))
+
+
+def factorial(n):
+    # Base case
+    if n == 0 or n == 1:
+        return 1
+
+    if n < 0:
+        return -1
+    # Recursive call
+    return n * factorial(n-1)     #     n!= n*(n-1)!
+
+print(factorial(5))
+# n=int(input("value :"))
+# def fact(n) :
+#     facto = 1
+#     for i in range(1,n+1): 
+#         facto = facto * i 
+#     print(facto)
+
+
+
+# print ("The factorial of %n is : ") 
+# print (fact(n)) 
+
+# facto = 1
+# for i in range(1,6): 
+#     print(i)
+
+
+
+# print(facto)
+
+### 2function 
+
+def big(a,b) :
+    if a<b :
+        biNo = b
+    else :
+        biNo = a 
+    return biNo
+
+
+
+
+
+def compare (x, y , biggest) :
+    print(x)
+    print(y)
+    print("big no. :", biggest(x,y))
+
+
+compare(20,50,big)       #   "big"  function call as a argument of "biggest" 
+
+
+# Python program to illustrate functions  
+# can be passed as arguments to other functions  
+# def shout(text):  
+#     return text.upper()  
+  
+# def whisper(text):  
+#     return text.lower()  
+  
+# def greet(func):  
+#     # storing the function in a variable  
+#     greeting = func("Hi, I am created by a function passed as an argument.")  
+#     print(greeting) 
+  
+# greet(shout)  
+# greet(whisper)  
+
+
+
+# def f(n) :
+#     while n>1 :
+#         l= n *(n-1)
+#         r=l
+#         n=n-1
+#     return(r)
+
+# print(f(5))
