@@ -3,4 +3,6 @@
 **/venv
 **/Ui-notes
 **/node_modules
-**/.eclipse
+**/.eclipse.
+**/Lib
+**/Script
