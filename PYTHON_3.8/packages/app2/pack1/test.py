@@ -1,0 +1,3 @@
+import wish
+
+wish.saywish()

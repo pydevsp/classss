@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1st static with template</title>
+    <link rel="stylesheet" href="{% static "css/demo.css" %}">
+    <style>
+        #msgId{
+            color:red;
+        }
+        #dateId{
+            color:royalblue;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="msgId">{{insert_msg}}</h1>
+    <h1 id="dateId">current date and time :{{insert_date}}</h1>
+    <h1>this climate preferable image is :</h1>
+    <img src="{% static "images/macbook.png" %}" alt="">
+</body>
+</html>

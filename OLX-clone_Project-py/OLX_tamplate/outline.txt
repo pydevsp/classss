@@ -1,0 +1,44 @@
+items :-
+
+1. title
+   date & time
+   ad id 
+   city for the owner 
+   images
+   price
+   conditions 
+   item type -category
+
+
+owner :
+ city
+ phone number
+
+
+feedback
+contact
+
+
+functions :
+ login  -  register  -- forget password
+ post add
+ filter 
+ search
+
+
+
+
+
+
+
+
+
+- url
+- views  ----> templates
+- models 
+
+
+
+
+
+ 

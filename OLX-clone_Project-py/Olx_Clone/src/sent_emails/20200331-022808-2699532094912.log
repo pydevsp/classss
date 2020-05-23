@@ -1,0 +1,25 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Subject: 
+From: webmaster@localhost
+To: pythondeveloper6@gmail.com
+Date: Mon, 30 Mar 2020 20:58:08 -0000
+Message-ID: <158560188876.11748.1048131495396106047@DESKTOP-NR6VSFQ>
+
+
+You're receiving this email because you requested a password reset for your user account at localhost:8000.
+
+Please go to the following page and choose a new password:
+
+http://localhost:8000/accounts/reset/MQ/5f9-3ea18c85f9b6ad2e8bfd/
+
+Your username, in case you’ve forgotten: sagar
+
+Thanks for using our site!
+
+The localhost:8000 team
+
+
+
+-------------------------------------------------------------------------------

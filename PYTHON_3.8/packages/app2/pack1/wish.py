@@ -1,0 +1,2 @@
+def  saywish():
+   print("good")
