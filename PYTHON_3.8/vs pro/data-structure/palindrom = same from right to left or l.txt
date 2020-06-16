@@ -1,0 +1,15 @@
+palindrom = same from right to left or left to right
+====================================================
+aba
+abuba
+ccc
+racecar
+
+anagram = number of letter and repetation is same 
+=================================================
+eeraa
+araea
+
+
+
+

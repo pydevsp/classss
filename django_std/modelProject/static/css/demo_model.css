@@ -1,0 +1,32 @@
+body.container {
+    background-color:rgb(255, 0, 212);
+    text-align: center;
+}
+
+
+
+.t  {
+    background-color: #e0dcdc;
+    width: 500px;
+    margin: auto;
+    box-shadow: 0px 0px 3px 4px #d1cece;
+    transition: box-shadow 0.3s;
+    min-width: 200px;
+    overflow: auto;
+}
+
+.t:hover {
+    box-shadow: 0px 0px 5px 7px #d1cece;
+}
+table {
+    font-family: Tahoma;
+    font-size: 26px;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #968f8f;
+}
+
+table thead tr {
+    background-color: #a39d9dff;
+    color: seashell;
+}

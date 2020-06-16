@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>emp data</title>
+    <!-- <link rel='stylesheet' href="{% static "css/bootstrap.min.css" %}"> -->
+    <link rel='stylesheet' href ='{% static 'css/demo_model.css' %}'>
+</head>
+<body class="container" >
+
+    <h1>The   emp list issss :</h1>
+
+    {% if emp_list %}
+    <table class="t">
+        <thead>
+            <th>eno</th>
+            <th>ename</th>
+            <th>esal</th>
+            <th>eaddr</th>
+        </thead>
+
+        {% for emp in  emp_list %}
+        <tr>
+            <td><h1>{{emp.eno}}</h1></td>
+            <td><h1>{{emp.ename}}</h1></td>
+            <td><h1>{{emp.esal}}</h1></td>
+            <td><h1>{{emp.eaddr}}</h1></td>
+        </tr>
+        {% endfor %}
+
+    </table>
+    {% else %}
+    <p>no  records</p>
+    {% endif %}
+</body>
+</html>
